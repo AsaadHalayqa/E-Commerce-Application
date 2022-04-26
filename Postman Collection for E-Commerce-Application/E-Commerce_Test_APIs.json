@@ -108,7 +108,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"C2A\",\r\n    \"description\":\"Consumer-to-Administration\"\r\n}",
+              "raw": "{\r\n    \"name\": \"BBB\",\r\n    \"description\":\"new Category\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
