@@ -5,6 +5,10 @@
  
 ![image](https://user-images.githubusercontent.com/79643639/165389228-dcd5c8c5-d136-4dfb-a8eb-1f8a14f7d5ff.png)
 
+### Testing 
+There is a Postman collection for APIs testing
+
+
 # For Customer: 
 
 1. Create Customer
