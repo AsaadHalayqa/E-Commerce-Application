@@ -10,7 +10,7 @@
       "item": [
         {
           "name": "Create Customer",
-          "_postman_id": "3bb68bc9-e2b3-48d8-be0b-b9756b8e5264",
+          "id": "3bb68bc9-e2b3-48d8-be0b-b9756b8e5264",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -32,7 +32,7 @@
         },
         {
           "name": "Get All Customers",
-          "_postman_id": "1c28e0b5-96dc-488d-a531-a70799bf0dea",
+          "id": "1c28e0b5-96dc-488d-a531-a70799bf0dea",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -45,7 +45,7 @@
         },
         {
           "name": "Get Customer By Id",
-          "_postman_id": "2a3b2400-170d-4813-b712-b7a1c0b0a8bf",
+          "id": "2a3b2400-170d-4813-b712-b7a1c0b0a8bf",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -58,7 +58,7 @@
         },
         {
           "name": "Update Customer",
-          "_postman_id": "dffa4c5c-61ce-4cc6-93f2-738e303fa5d7",
+          "id": "dffa4c5c-61ce-4cc6-93f2-738e303fa5d7",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -80,26 +80,26 @@
         },
         {
           "name": "Delete Customer By Id",
-          "_postman_id": "84ad62d7-56e5-4ca8-bed9-77654c6f2c7e",
+          "id": "84ad62d7-56e5-4ca8-bed9-77654c6f2c7e",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": "http://localhost:8070/eCommerceApi/customer/12"
+            "url": "http://localhost:8070/eCommerceApi/customer/11"
           },
           "response": []
         }
       ],
-      "_postman_id": "0b3ed73a-8b1a-409e-8165-092567c690ef"
+      "id": "0b3ed73a-8b1a-409e-8165-092567c690ef"
     },
     {
       "name": "Category APIs",
       "item": [
         {
           "name": "Create Category",
-          "_postman_id": "24a47128-8309-4b4d-af74-5ad02a2dcd97",
+          "id": "24a47128-8309-4b4d-af74-5ad02a2dcd97",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -121,7 +121,7 @@
         },
         {
           "name": "Get All Categories",
-          "_postman_id": "5cc3ab5d-0665-42ca-a298-00ea0a27cd38",
+          "id": "5cc3ab5d-0665-42ca-a298-00ea0a27cd38",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -134,7 +134,7 @@
         },
         {
           "name": "Get Category By Id",
-          "_postman_id": "a1a3ce84-387f-4a55-a2e5-a253a4601652",
+          "id": "a1a3ce84-387f-4a55-a2e5-a253a4601652",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -147,7 +147,7 @@
         },
         {
           "name": "Update Category",
-          "_postman_id": "e74e94bb-8533-4dbc-bae8-650b23090913",
+          "id": "e74e94bb-8533-4dbc-bae8-650b23090913",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -169,7 +169,7 @@
         },
         {
           "name": "Delete Category By Id",
-          "_postman_id": "ed008755-b1cf-4319-a20c-f4bf291c81cb",
+          "id": "ed008755-b1cf-4319-a20c-f4bf291c81cb",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -181,14 +181,14 @@
           "response": []
         }
       ],
-      "_postman_id": "2bd44f9e-6537-477a-8f3a-8c367672521c"
+      "id": "2bd44f9e-6537-477a-8f3a-8c367672521c"
     },
     {
       "name": "Product APIs",
       "item": [
         {
           "name": "Create Product",
-          "_postman_id": "4abc1fdc-35ba-48a0-a9f6-109d7391d744",
+          "id": "4abc1fdc-35ba-48a0-a9f6-109d7391d744",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -210,7 +210,7 @@
         },
         {
           "name": "Get All Products",
-          "_postman_id": "12b698f7-591d-41dc-abf7-4eeaff60d2b8",
+          "id": "12b698f7-591d-41dc-abf7-4eeaff60d2b8",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -223,7 +223,7 @@
         },
         {
           "name": "Get Product By Id",
-          "_postman_id": "25a775e6-296b-413a-aef1-89205786d42a",
+          "id": "25a775e6-296b-413a-aef1-89205786d42a",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -236,7 +236,7 @@
         },
         {
           "name": "Update Product",
-          "_postman_id": "689da6ef-c64f-42f6-ba7f-4cb93d3a62ad",
+          "id": "689da6ef-c64f-42f6-ba7f-4cb93d3a62ad",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -258,7 +258,7 @@
         },
         {
           "name": "Delete Product By Id",
-          "_postman_id": "940f251d-1046-4087-b360-27f5c477dd71",
+          "id": "940f251d-1046-4087-b360-27f5c477dd71",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -270,7 +270,7 @@
           "response": []
         }
       ],
-      "_postman_id": "ab50b92e-730f-43e6-9b11-76fa3dcd6243"
+      "id": "ab50b92e-730f-43e6-9b11-76fa3dcd6243"
     }
   ]
 }
