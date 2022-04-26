@@ -1,0 +1,276 @@
+{
+  "info": {
+    "_postman_id": "87ac014e-950c-4de6-bc58-75420a288a38",
+    "name": "Test e-Commerce API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Customer APIs",
+      "item": [
+        {
+          "name": "Create Customer",
+          "_postman_id": "3bb68bc9-e2b3-48d8-be0b-b9756b8e5264",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\r\n    \"name\": \"Assad Halayqa\",\r\n    \"email\": \"asaad99@gmail.com\",\r\n    \"city\": \"Ramallag\",\r\n    \"address\": \"Birzeit\",\r\n    \"phoneNo\": 592316909,\r\n    \"creditCard\": 652912531\r\n\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "http://localhost:8070/eCommerceApi/customer"
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Customers",
+          "_postman_id": "1c28e0b5-96dc-488d-a531-a70799bf0dea",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/customer"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Customer By Id",
+          "_postman_id": "2a3b2400-170d-4813-b712-b7a1c0b0a8bf",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/customer/8"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Customer",
+          "_postman_id": "dffa4c5c-61ce-4cc6-93f2-738e303fa5d7",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\r\n    \"name\": \"Ali Khalid Ahmed\",\r\n    \"email\": \"aliAh1980@gmail.com\",\r\n    \"city\": \"Ramallah\",\r\n    \"address\": \"Qaddurah\",\r\n    \"phoneNo\": 593568292,\r\n    \"creditCard\": 7859613\r\n\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "http://localhost:8070/eCommerceApi/customer/10"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Customer By Id",
+          "_postman_id": "84ad62d7-56e5-4ca8-bed9-77654c6f2c7e",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/customer/12"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "0b3ed73a-8b1a-409e-8165-092567c690ef"
+    },
+    {
+      "name": "Category APIs",
+      "item": [
+        {
+          "name": "Create Category",
+          "_postman_id": "24a47128-8309-4b4d-af74-5ad02a2dcd97",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"C2A\",\r\n    \"description\":\"Consumer-to-Administration\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "http://localhost:8070/eCommerceApi/category"
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Categories",
+          "_postman_id": "5cc3ab5d-0665-42ca-a298-00ea0a27cd38",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/category"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Category By Id",
+          "_postman_id": "a1a3ce84-387f-4a55-a2e5-a253a4601652",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/category/4"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Category",
+          "_postman_id": "e74e94bb-8533-4dbc-bae8-650b23090913",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"C2C\",\r\n    \"description\": \"\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "http://localhost:8070/eCommerceApi/category/3"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Category By Id",
+          "_postman_id": "ed008755-b1cf-4319-a20c-f4bf291c81cb",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/category/4"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "2bd44f9e-6537-477a-8f3a-8c367672521c"
+    },
+    {
+      "name": "Product APIs",
+      "item": [
+        {
+          "name": "Create Product",
+          "_postman_id": "4abc1fdc-35ba-48a0-a9f6-109d7391d744",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"doritos\",\r\n    \"categoryId\": 5, \r\n    \"price\": 2 , \r\n    \"description\": \"\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "http://localhost:8070/eCommerceApi/product"
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Products",
+          "_postman_id": "12b698f7-591d-41dc-abf7-4eeaff60d2b8",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/product"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Product By Id",
+          "_postman_id": "25a775e6-296b-413a-aef1-89205786d42a",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/product/2"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Product",
+          "_postman_id": "689da6ef-c64f-42f6-ba7f-4cb93d3a62ad",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "  {\r\n        \"name\": \"Pringles\",\r\n        \"categoryId\": 3,\r\n        \"price\": 7.5,\r\n        \"description\": \"price increased\"\r\n    }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "http://localhost:8070/eCommerceApi/product/3"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Product By Id",
+          "_postman_id": "940f251d-1046-4087-b360-27f5c477dd71",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": "http://localhost:8070/eCommerceApi/product/1"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "ab50b92e-730f-43e6-9b11-76fa3dcd6243"
+    }
+  ]
+}
