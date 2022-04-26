@@ -7,6 +7,7 @@
 
 # For Customer: 
 1. Create customer
+
 HTTP method: Post
 
 URL path: "/eCommerceApi/customer"
