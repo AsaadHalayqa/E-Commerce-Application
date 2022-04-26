@@ -86,6 +86,78 @@ Request & Response:
 
 1. Create Category
 
+HTTP method: Post
+
+URL path: "/eCommerceApi/category"
+
+HTTP status code: 201 (Created)
+
+Description: Create new category
+
+Request & Response: 
+
+![image](https://user-images.githubusercontent.com/79643639/165393902-9efc4453-1102-4e23-9add-ea2c4aeb20f3.png)
+
+
+2. Get All Categories
+
+HTTP method: Get
+
+URL path: "/eCommerceApi/category"
+
+HTTP status code: 200 (OK)
+
+Description: get all categories
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165394095-d0aac915-a546-4d6d-8195-8f1ff7c46dec.png)
+
+
+3. Get Category By Id
+
+HTTP method: Get
+
+URL path: "/eCommerceApi/ category /{id}"
+
+HTTP status code: 200 (OK)
+
+Description: get category by id
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165394274-fe21f96b-4091-4e53-bc31-e8ee69e1bf0b.png)
+
+
+4. Update Existing Category By Id
+
+HTTP method: PUT
+
+URL path: "/eCommerceApi/ category /{id}"
+
+HTTP status code: 200 (OK)
+
+Description: update existing category by id
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165394587-af0b9412-32aa-4186-9720-e06fb668ba9d.png)
+
+5. Delete Existing Category By Id
+
+HTTP method: DELETE
+
+URL path: "/eCommerceApi/ category /{id}"
+
+HTTP status code: 200 (OK)
+
+Description: delete existing category by id
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165394782-186fcad7-6686-465b-a9b9-d312500d9f17.png)
+
+
 
 
 
