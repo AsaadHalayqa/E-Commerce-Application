@@ -265,7 +265,7 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": "http://localhost:8070/eCommerceApi/product/1"
+            "url": "http://localhost:8070/eCommerceApi/product/4"
           },
           "response": []
         }
