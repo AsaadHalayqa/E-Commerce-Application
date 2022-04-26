@@ -245,7 +245,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "  {\r\n        \"name\": \"Pringles\",\r\n        \"categoryId\": 3,\r\n        \"price\": 7.5,\r\n        \"description\": \"price increased\"\r\n    }",
+              "raw": "  {\r\n        \"name\": \"Pringles\",\r\n        \"categoryId\": 3,\r\n        \"price\": 11,\r\n        \"description\": \"price increased\"\r\n    }",
               "options": {
                 "raw": {
                   "language": "json"
