@@ -34,6 +34,28 @@ Request & Response:
 
 ![image](https://user-images.githubusercontent.com/79643639/165392165-a98bb770-2c7e-423e-8e4b-2e9db02b8bdb.png)
 
+3. Get Customer By Id
+
+HTTP method: Get
+
+URL path: "/eCommerceApi/customer/{id}"
+
+HTTP status code: 200 (OK)
+
+Description: get customer by id
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165392521-330a6d7f-1bca-4ac3-9289-ec17e3bbfbce.png)
+
+
+
+
+
+
+
+
+
 
 
 
