@@ -19,7 +19,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n\r\n    \"name\": \"Assad Halayqa\",\r\n    \"email\": \"asaad99@gmail.com\",\r\n    \"city\": \"Ramallag\",\r\n    \"address\": \"Birzeit\",\r\n    \"phoneNo\": 592316909,\r\n    \"creditCard\": 652912531\r\n\r\n}",
+              "raw": "{\r\n\r\n    \"name\": \"Mohammed Ali\",\r\n    \"email\": \"mohali@gmail.com\",\r\n    \"city\": \"Ramallah\",\r\n    \"address\": \"Yabroud\",\r\n    \"phoneNo\": 569822315,\r\n    \"creditCard\": 2364789952\r\n\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
