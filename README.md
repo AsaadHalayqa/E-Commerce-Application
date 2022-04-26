@@ -67,7 +67,7 @@ Request & Response:
 ![image](https://user-images.githubusercontent.com/79643639/165393020-1f5e58c9-6640-47a4-ab4b-31d0d88b73ee.png)
 
 
-5. Delete Existing Customer By Id
+5. Delete Existing Customer
 
 HTTP method: DELETE
 
@@ -118,7 +118,7 @@ Request & Response:
 
 HTTP method: Get
 
-URL path: "/eCommerceApi/ category /{id}"
+URL path: "/eCommerceApi/category/{id}"
 
 HTTP status code: 200 (OK)
 
@@ -133,7 +133,7 @@ Request & Response:
 
 HTTP method: PUT
 
-URL path: "/eCommerceApi/ category /{id}"
+URL path: "/eCommerceApi/category/{id}"
 
 HTTP status code: 200 (OK)
 
@@ -143,11 +143,12 @@ Request & Response:
 
 ![image](https://user-images.githubusercontent.com/79643639/165394587-af0b9412-32aa-4186-9720-e06fb668ba9d.png)
 
-5. Delete Existing Category By Id
+
+5. Delete Existing Category
 
 HTTP method: DELETE
 
-URL path: "/eCommerceApi/ category /{id}"
+URL path: "/eCommerceApi/category/{id}"
 
 HTTP status code: 200 (OK)
 
@@ -157,6 +158,83 @@ Request & Response:
 
 ![image](https://user-images.githubusercontent.com/79643639/165394782-186fcad7-6686-465b-a9b9-d312500d9f17.png)
 
+
+
+# For Product: 
+
+1. Create Product
+
+HTTP method: Post
+
+URL path: "/eCommerceApi/product"
+
+HTTP status code: 201 (Created)
+
+Description: Create new product
+
+Request & Response: 
+
+![image](https://user-images.githubusercontent.com/79643639/165395233-3fc45318-f12a-49c3-ad80-aee0abda7cb9.png)
+
+
+2. Get All Products
+
+HTTP method: Get
+
+URL path: "/eCommerceApi/product"
+
+HTTP status code: 200 (OK)
+
+Description: get all products
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165395527-f7372e8c-f1ef-464a-a2b8-580f1e42e7a8.png)
+
+
+3. Get Product By Id
+
+HTTP method: Get
+
+URL path: "/eCommerceApi/product/{id}"
+
+HTTP status code: 200 (OK)
+
+Description: get product by id
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165395717-33ca4c6d-00f4-4ae8-af85-9a22fa471c93.png)
+
+
+4. Update Existing Product By Id
+
+HTTP method: PUT
+
+URL path: "/eCommerceApi/product/{id}"
+
+HTTP status code: 200 (OK)
+
+Description: update existing product by id
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165395920-bf70bb94-80e7-43ef-978c-59bf9b704999.png)
+
+
+5. Delete Existing Product
+
+HTTP method: DELETE
+
+URL path: "/eCommerceApi/product/{id}"
+
+HTTP status code: 200 (OK)
+
+Description: delete existing product by id
+
+Request & Response:
+
+![image](https://user-images.githubusercontent.com/79643639/165396147-004aab39-eb6e-4168-b52c-024e121b2fc7.png)
 
 
 
