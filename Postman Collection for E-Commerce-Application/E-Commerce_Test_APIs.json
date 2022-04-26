@@ -230,7 +230,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "http://localhost:8070/eCommerceApi/product/2"
+            "url": "http://localhost:8070/eCommerceApi/product/3"
           },
           "response": []
         },
