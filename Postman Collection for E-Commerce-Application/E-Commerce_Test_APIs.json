@@ -197,7 +197,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"name\": \"doritos\",\r\n    \"categoryId\": 5, \r\n    \"price\": 2 , \r\n    \"description\": \"\"\r\n}",
+              "raw": "{\r\n    \"name\": \"Blu\",\r\n    \"categoryId\": 1, \r\n    \"price\": 3.5 , \r\n    \"description\": \"enargy drink\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
