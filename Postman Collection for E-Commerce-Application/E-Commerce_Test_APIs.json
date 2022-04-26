@@ -141,7 +141,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "http://localhost:8070/eCommerceApi/category/4"
+            "url": "http://localhost:8070/eCommerceApi/category/5"
           },
           "response": []
         },
