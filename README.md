@@ -86,7 +86,7 @@ Request & Response:
 ![image](https://user-images.githubusercontent.com/79643639/165393252-f560bdf8-9806-433b-a2db-0cd8077adbd6.png)
 
 
-# For Category: 
+## For Category: 
 
 1. Create Category
 
@@ -164,7 +164,7 @@ Request & Response:
 
 
 
-# For Product: 
+## For Product: 
 
 1. Create Product
 
